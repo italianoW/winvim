@@ -7,7 +7,12 @@ return {
   },
 
   opts = {
-    
+    filesystem = {
+      filtered_items = {
+        visible = true, -- This makes them visible but dimmed
+        hide_dotfiles = false,
+        hide_gitignored = false, -- Set to true if you still want to hide stuff in .gitignore
+      },},
 
     default_component_configs = {
       indent = {
