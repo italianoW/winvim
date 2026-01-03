@@ -12,3 +12,6 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags)
 
 --Fugitive
 vim.keymap.set("n", "<leader>gs", vim.cmd.Git, {desc="Git Status"})
+
+--Lsp
+vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, { desc = "LSP Goto Definition" })
