@@ -2,6 +2,10 @@
 
 vim.keymap.set("n","<leader>cd",":Ex<CR>")
 
+--brain
+vim.keymap.set("n","<leader>bc",":Brain<CR>")
+vim.keymap.set("n","<leader>bs",":BrainSearch<CR>")
+
 --Neo-tree
 -- <C-w> hjkl for change in the selected windows.
 
